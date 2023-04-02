@@ -65,11 +65,8 @@ export default function Home() {
 				</div>
 			</div>
 
+			<p className={styles.switch}>Switch to desktop</p>
 
-			<div className={styles.footer}>
-				<p>Made with <FavoriteOutlinedIcon style={{ verticalAlign: 'top' }}/> by Ansh Saxena</p>
-				<p>Powered by Chat GPT</p>
-			</div>
 		</div >
 	)
 }

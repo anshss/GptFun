@@ -3,14 +3,11 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  justify-content: space-between;
-
-
 }
 
 
 .header {
-  background-color: #8264dd;
+  background-color: #f3a238;
   color: black;
   height: 10vh;
   display: flex;
@@ -25,7 +22,8 @@
 .card {
   width: 65%;
   height: 50vh;
-  background-color: rgb(243, 162, 56);
+  margin-top: 8rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   align-self: center;
   padding: 2rem;
   border-radius: 6px;
@@ -47,6 +45,7 @@
 
     * {
       width: 50%;
+      height: 100%;
     }
   }
 }
@@ -63,5 +62,18 @@
   p:nth-child(2) {
     font-size: 80%;
     margin-top: 0.4rem;
+  }
+}
+
+.switch {
+  display: none;
+}
+
+@media only screen and (max-width: 850px) {
+  .container {
+
+    .switch {
+      display: block;
+    }
   }
 }
